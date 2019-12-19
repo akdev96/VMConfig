@@ -100,6 +100,24 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  tar -xvf latest.tar.gz
  ## edit wp-config.php file from sample
  
+
  ## DONE
+ 
+ nano /etc/apache2/mods-enabled/mpm-prefork.conf
+ >>>
+ 1
+ 2
+ 5
+ 10
+ 1000
+ 
+ # Sec Scan
+ wget https://raw.githubusercontent.com/richardforth/apache2buddy/master/apache2buddy.pl
+ chmod +x apache2buddy.pl
+ ./apache2buddy.pl
+ 
+ 
+ ## Youtube Link
+ # https://www.youtube.com/watch?v=vIJdypOqlL4
  
  
