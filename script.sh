@@ -44,7 +44,8 @@ sudo nano /etc/fstab
  sudo apt install php-curl php-gd php7.2-xml php-xmlrpc
  
  sudo vi /etc/apt/sources.list
- >>
+ 
+>>
 deb http://archive.ubuntu.com/ubuntu bionic main universe
 deb http://archive.ubuntu.com/ubuntu bionic-security main universe
 deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
@@ -57,6 +58,14 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  
  # Grabbing External IP
  curl ifconfig.me
+ 
+ ## Do DNS Stuff - Add "A" Record
+ 
+ # Setup Domain name on Apache Config
+ cd /etc/apache2/sites-available/
+ 
+ 
+ 
  
  
  
