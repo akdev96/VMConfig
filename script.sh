@@ -63,9 +63,43 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  
  # Setup Domain name on Apache Config
  cd /etc/apache2/sites-available/
+ cp 000-default.conf sitename.com.conf
  
+ >>>
+ <Directory /var/www/html>
+  Require all granted
+ </Directory>
+ ...
+ ServerName servaername.com
+ ServerAlias www.servername.com
  
+ # Disable Default
+ a2dissite 000-default.conf
  
+ # Enable Custom
+ a2ensite sitename.com.conf
  
+ # Database Operations
+ mysql -u root
+ 
+ CREATE DATABASE dbname;
+ GRANT ALL ON dbname.* TO 'dbuser' IDENTIFIED BY 'password';
+ 
+ quit
+ 
+ mysql_secure_installation
+ 
+ # Yes to All
+ 
+ # PHP Conf break limitations
+ nano /etc/php/7.2/apache2/php.ini
+ 
+ # Installing Wordpress
+ cd /ver/www/html/
+ wget https://wordpress.org/latest.tar.gz
+ tar -xvf latest.tar.gz
+ ## edit wp-config.php file from sample
+ 
+ ## DONE
  
  
