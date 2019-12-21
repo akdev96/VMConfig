@@ -120,4 +120,6 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  ## Youtube Link
  # https://www.youtube.com/watch?v=vIJdypOqlL4
  
+ ## Installing LAMP
+ # https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
  
