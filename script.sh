@@ -126,5 +126,5 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  ## Setup FTP
  # https://www.emiprotechnologies.com/technical_notes/odoo-technical-notes-59/post/install-and-configure-vsftpd-475
  
- ## Wordpress FTP requre bypass
+ ## Wordpress FTP require bypass
  # https://stackoverflow.com/questions/640409/can-i-install-update-wordpress-plugins-without-providing-ftp-access
