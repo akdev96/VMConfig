@@ -123,3 +123,6 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  ## Installing LAMP
  # https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
  
+ ## Setup FTP
+ # https://www.emiprotechnologies.com/technical_notes/odoo-technical-notes-59/post/install-and-configure-vsftpd-475
+ 
