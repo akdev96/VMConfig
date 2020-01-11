@@ -6,5 +6,5 @@ configuring cloud vm and vps cheatsheet.
 - [x] Creating Swap Memory
 - [x] Installing LAMP
 - [x] Config & Secure LAMP
-- [] Setup NameServers
-- [] Setup Mail Servers
+- [ ] Setup NameServers
+- [ ] Setup Mail Servers
