@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Installing gcloud
 sudo apt-get install gcloud
 
