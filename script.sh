@@ -132,6 +132,7 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  # https://stackoverflow.com/questions/640409/can-i-install-update-wordpress-plugins-without-providing-ftp-access
  
  ## Mail Server Postfix
+ # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-16-04
  # https://blog.resellerclub.com/how-to-configure-an-email-server-for-a-vps-hosting-package/
  
  ## SSL Lets Encrypt
