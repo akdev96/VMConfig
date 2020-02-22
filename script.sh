@@ -130,3 +130,9 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  
  ## Wordpress FTP require bypass
  # https://stackoverflow.com/questions/640409/can-i-install-update-wordpress-plugins-without-providing-ftp-access
+ 
+ ## Mail Server Postfix
+ # https://blog.resellerclub.com/how-to-configure-an-email-server-for-a-vps-hosting-package/
+ 
+ ## SSL Lets Encrypt
+ # https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04
