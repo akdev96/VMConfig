@@ -125,6 +125,9 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  ## Installing LAMP
  # https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
  
+ ## Installing LEMP
+ # https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04
+ 
  ## Setup FTP
  # https://www.emiprotechnologies.com/technical_notes/odoo-technical-notes-59/post/install-and-configure-vsftpd-475
  
@@ -132,7 +135,7 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  # https://stackoverflow.com/questions/640409/can-i-install-update-wordpress-plugins-without-providing-ftp-access
  
  ## Setup MailServere Postfix, Dovecot & RoundCube
- #https://www.atlantic.net/vps-hosting/how-to-set-up-fully-featured-mail-server-with-postfix-dovecot-and-roundcube-on-ubuntu-18-04/
+ # https://www.atlantic.net/vps-hosting/how-to-set-up-fully-featured-mail-server-with-postfix-dovecot-and-roundcube-on-ubuntu-18-04/
  
  ## Mail Server Postfix
  # https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-on-ubuntu-16-04
