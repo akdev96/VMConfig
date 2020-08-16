@@ -122,6 +122,9 @@ deb http://archive.ubuntu.com/ubuntu bionic-updates main universe
  ## Youtube Link
  # https://www.youtube.com/watch?v=vIJdypOqlL4
  
+ ## Installing ISPConfig
+ # https://www.rosehosting.com/blog/how-to-install-ispconfig-3-on-ubuntu-18-04/IS
+ 
  ## Installing LAMP
  # https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04
  
