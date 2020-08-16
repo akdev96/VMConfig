@@ -4,7 +4,7 @@
 sudo apt-get install gcloud
 
 # SSH Connect gcloud command
-gcloud beta compute --project "webhosting-262514" ssh --zone "us-west2-a" "organicserver"
+gcloud beta compute --project "webhosting-xx" ssh --zone "us-west2-a" "servername"
 
 # Checking performance
 htop
